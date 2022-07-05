@@ -30,15 +30,11 @@ h1 {
 .button {
   margin-top: 10px;
   border-radius: 5px;
-  padding: 10px 25px;
+  padding: 15px 35px;
   border: none;
-
   background-color: #ff5959;
   color: white;
-  justify-content: center;
-  height: 50px;
-  width: 150px;
-  font-weight: bold;
+  font-size: 20px;
 }
 
 .donate-container {
@@ -62,7 +58,7 @@ h1 {
 }
 
 .manual-amount input {
-  font-size: 18px;
+  font-size: 20px;
   color: #b3b3b3;
   text-align: center;
   margin-top: 50px;
@@ -73,8 +69,8 @@ h1 {
 }
 
 .manual-amount hr {
-  width: 65%;
-  border: 1px solid black;
+  width: 1400px;
+  border: 0.5px solid black;
 }
 
 .donate-container {
@@ -138,7 +134,7 @@ h1 {
 }
 
 .email {
-  height: 35px;
+  height: 41px;
   border: none;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -146,16 +142,16 @@ h1 {
   background-color: #b3b3b3;
   padding: 1px 25px;
   color: white;
-  font-weight: bold;
+  font-size: 20px;
 }
 
 .subscribe {
-  height: 37px;
+  height: 40x;
   border: none;
   background-color: #ff5959;
   border-top-right-radius: 5px;
   padding: 10px 25px;
   border-bottom-right-radius: 5px;
   color: white;
-  font-weight: bold;
+  font-size: 20px;
 }
