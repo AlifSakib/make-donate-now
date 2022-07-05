@@ -1,3 +1,161 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.top-container {
+  background-image: url(images/donation9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+.top-contants {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.top-container p {
+  font-size: 15px;
+}
+
+.button {
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: none;
+
+  background-color: #ff5959;
+  color: white;
+  justify-content: center;
+  height: 50px;
+  width: 150px;
+  font-weight: bold;
+}
+
+.donate-container {
+  text-align: center;
+  width: 100%;
+  margin-top: 120px;
+}
+
+.amount-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.amount-list p {
+  margin: 20px;
+  padding: 2% 2%;
+  background-color: #fafafa;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.manual-amount input {
+  font-size: 18px;
+  color: #b3b3b3;
+  text-align: center;
+  margin-top: 50px;
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+}
+
+.manual-amount hr {
+  width: 65%;
+  border: 1px solid black;
+}
+
+.donate-container {
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  text-align: left;
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+  margin: 40px 15px;
+}
+.box-contant {
+  padding: 50px 20px;
+  text-align: justify;
+}
+#box-1 {
+  background-color: #4f9da61a;
+}
+
+#box-2 {
+  background-color: #ff59591a;
+}
+
+#box-3 {
+  background-color: #fff4d6;
+}
+
+.footer {
+  background-color: #0b0d17;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.footer h2 {
+  font-family: "Lobster", cursive;
+  color: red;
+  font-size: 35px;
+}
+
+.update-section {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.contact {
+  background-color: #fff4d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% 25%;
+  height: 200px;
+}
+
+.email {
+  height: 35px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  background-color: #b3b3b3;
+  padding: 1px 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.subscribe {
+  height: 37px;
+  border: none;
+  background-color: #ff5959;
+  border-top-right-radius: 5px;
+  padding: 10px 25px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  font-weight: bold;
 }
