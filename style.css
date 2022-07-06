@@ -11,6 +11,7 @@ h1 {
 .top-container {
   background-image: url(images/donation9.jpg);
   background-repeat: no-repeat;
+
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -55,6 +56,12 @@ h1 {
   background-color: #fafafa;
   font-size: 30px;
   font-weight: bold;
+}
+
+#selected {
+  background-color: #ffeeee;
+  color: #ff5959;
+  border: 2px solid #ff5959;
 }
 
 .manual-amount input {
