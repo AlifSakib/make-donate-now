@@ -11,9 +11,8 @@ h1 {
 .top-container {
   background-image: url(images/donation9.jpg);
   background-repeat: no-repeat;
-
   background-size: cover;
-  width: 100%;
+  width: 100vw;
   height: 700px;
 }
 
@@ -21,7 +20,7 @@ h1 {
   color: white;
   text-align: center;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 .top-container p {
