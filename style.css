@@ -105,6 +105,27 @@ h1 {
   background-color: #fff4d6;
 }
 
+.motivation-section {
+  text-align: center;
+  width: 100%;
+}
+
+.people-reaction {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.image-status {
+  margin: 50px;
+  width: 350px;
+}
+
+.image-status p {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 .footer {
   background-color: #0b0d17;
   text-align: center;
